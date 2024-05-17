@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+	<title>Web Design Finals</title>
+	<style>
+body {				
+  margin: 0;
+  font-family: Roboto;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 0px;				
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+h1, p, .logo {
+  margin: 3px;
+  padding: 0;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;  
+}
+
+nav {
+  background-color: #555;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 20px; 				
+}
+
+.navbar a:hover {
+  color: #ff0000;
+}
+
+.services {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.search {
+
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+input[type="text"] {
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 7px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff0000;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+			<img src="https://i.pinimg.com/564x/80/36/cd/8036cd6b00ffbf0ac2b1a9d6476ca433.jpg">
+		</div>
+		<h1>CAMERA CLICKZ</h1>
+		<p>DigiCams and Camera's</p>
+	</header>
+	<nav>
+		<div>
+			<a href="Home.html">Home</a>
+			<a href="Products.html">Products</a>
+			<a href="About Us.html">About Us</a>
+			<a href="Contact Us.html">Contact Us</a>
+		</div>
+		<div class="search">
+			<input type="text" placeholder="Search...">
+			&nbsp; 
+			<button type="submit">Search</button>
+		</div>
+	</nav>
+	<img src="https://i.pinimg.com/564x/be/1b/23/be1b23190ff1f934694857c7f558749a.jpg">
+</body>
+</html>

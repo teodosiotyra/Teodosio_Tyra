@@ -1,0 +1,112 @@
+<html>
+<head> 
+	<title> Contact Us </title>
+<style>
+body {				
+  margin: 0;
+  font-family: Roboto;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 0px;				
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+h1, p, .logo {
+  margin: 8px;
+  padding: 0;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;  
+}
+
+nav {
+	background-color: #555;  
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 121px; 				
+}
+
+.content > div { 
+	margin: 0 550px;
+	text-align: center; 
+}
+
+.nav-links {
+	margin-right: 20px;
+}
+</style>
+</head>
+<link rel = "stylesheet" href = "style.css">
+<body>
+	<header>
+		<nav>
+			<div class="nav-links">
+				<a href="Home.html">Home</a>
+			</div>
+			<div class="nav-links">
+				<a href="Products.html">Products</a>
+			</div>
+			<div class="nav-links">
+				<a href="About Us.html">About Us</a>
+			</div>
+			<div class="nav-links">
+				<a href="Contact Us.html">Contact Us</a>
+			</div>
+		</nav>
+		<div class="logo">
+			<a href="index.html">
+				<img src="https://i.pinimg.com/564x/80/36/cd/8036cd6b00ffbf0ac2b1a9d6476ca433.jpg">
+			</a>
+		</div>
+	</header>
+<div class = "header"><h1> Contact Us </h1></div>
+
+<div class="box"></div>
+	<div class="text1">
+		<h4> Name: <input type="text" name="TextBox1"> </h4>
+	<h4> Email: <input type="text" name="TextBox2"> </h4>
+	<h4> Message: <input type="text" name="TextBox3"> </h4>
+	<button style="width: 110px; height: 50px;"> Submit </button>
+</div>
+
+<form action="submit.php" method="POST">
+  <!-- Form elements go here -->
+</form>
+<div class = "text2">
+	<h3> Email </h3>
+	<p> tyra.teodosio@adamson.edu.ph </p>
+	&nbsp
+	<h3> Customer Service Hotline </h3>
+	<p> (632) 88849000 </p>
+	&nbsp
+	<h3> Domestic Toll Free No. </h3>
+	<p> 1-800-10-884-9000 (for provincial PLDT subscribers) </p>
+	&nbsp
+	<h3> Address </h3>
+	<p> Robinson Place Manila, Padre Faura St, Ermita, Manila, 1000 Metro Manila </p>
+</div>
+
+</html>
+</body>
